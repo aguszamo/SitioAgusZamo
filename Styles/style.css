@@ -1,0 +1,376 @@
+/*-------- ESTILOS GENERALES --------*/
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+ul {
+  list-style: none; }
+
+body {
+  background-image: url(../Imagenes/Background-Body.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+h1 {
+  text-align: center;
+  color: darkslateblue;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem; }
+
+h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+footer a {
+  color: #cbc6e4; }
+
+.navbar-li {
+  padding: 1rem 2rem;
+  border-radius: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem; }
+
+.tabla {
+  padding: 10rem; }
+
+.tabla-tr {
+  color: #051927; }
+
+/*--------Header--------*/
+#headerErroneo {
+  margin-bottom: 6rem; }
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: flex-end; }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+  border-radius: 50px;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease; }
+
+header h1 {
+  background-color: black;
+  transform: translate(0px, 28px);
+  margin: 28px; }
+
+header img:hover {
+  transform: scale(1.1); }
+
+header nav {
+  display: flex;
+  flex-flow: row nowrap; }
+  header nav a:hover {
+    background: rgba(94, 94, 94, 0.616);
+    border-radius: 50px; }
+
+.logo {
+  display: flex;
+  flex-flow: row;
+  width: 150px;
+  transform: translate(15px, 2px); }
+
+.logo {
+  transform: none; }
+
+/*-------- Articulos Index --------*/
+.modelSIndex h2 {
+  color: lightcyan; }
+
+.model3Index h2 {
+  color: lightcyan; }
+
+.modelXIndex h2 {
+  color: lightcyan; }
+
+/*-------- Articulos y Tienda --------*/
+.cambioCarousel {
+  background-color: black;
+  padding: 100px; }
+
+.articulo1 {
+  background-image: url(../Imagenes/Model-s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 550px; }
+  .articulo1 h1 {
+    transform: translate(0px, 70px);
+    color: #033333; }
+
+.modelSInterior {
+  background-image: url(../Imagenes/Model-s-Interior.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 750px; }
+  .modelSInterior h1 {
+    transform: translate(0px, 70px);
+    color: #033333; }
+
+.modelSInteriorText {
+  background-image: linear-gradient(black, #676565);
+  padding: 30px;
+  margin: 0px; }
+  .modelSInteriorText h2 {
+    color: white; }
+
+.specsArt1 {
+  background-color: grey;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 300px;
+  justify-content: space-between; }
+  .specsArt1 h2 {
+    color: white; }
+
+.specsArt1__p {
+  color: wheat; }
+
+.specsArt1__p2 {
+  color: #f5b237; }
+
+.articulo2 {
+  background-image: url(../Imagenes/Model-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 550px; }
+  .articulo2 h1 {
+    transform: translate(0px, 70px);
+    color: dimgrey; }
+
+.model3Interior {
+  background-image: url(../Imagenes/Model-3-Interior.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 750px; }
+  .model3Interior h1 {
+    transform: translate(0px, 70px);
+    color: #033333; }
+
+.model3InteriorText {
+  background-image: linear-gradient(BLACK, #ffffff2b);
+  padding: 30px;
+  margin: 0px; }
+  .model3InteriorText h2 {
+    color: white; }
+
+.specsArt2 {
+  background-color: grey;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 300px;
+  justify-content: space-between; }
+  .specsArt2 h2 {
+    color: white; }
+
+.specsArt1__p {
+  color: wheat; }
+
+.specsArt1__p2 {
+  color: #f5b237; }
+
+.articulo3 {
+  background-image: url(../Imagenes/Model-x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 550px; }
+  .articulo3 h1 {
+    transform: translate(0px, 60px);
+    color: lightcyan; }
+
+.modelXInterior {
+  background-image: url(../Imagenes/Model-X-Interior.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 750px; }
+  .modelXInterior h1 {
+    transform: translate(0px, 70px);
+    color: #033333; }
+
+.modelXInteriorText {
+  background-color: black;
+  padding: 30px;
+  margin: 0px; }
+  .modelXInteriorText h2 {
+    color: white; }
+
+.specsArt3 {
+  background-color: grey;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 300px;
+  justify-content: space-between; }
+  .specsArt3 h2 {
+    color: white; }
+
+.specsArt1__p {
+  color: wheat; }
+
+.specsArt1__p2 {
+  color: #f5b237; }
+
+.tienda {
+  background-image: url(../Imagenes/Tienda.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-flow: column;
+  height: 400px;
+  align-items: center;
+  justify-content: space-between; }
+  .tienda h1 {
+    color: #010a18; }
+  .tienda p {
+    background-color: black;
+    color: whitesmoke; }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.3rem; }
+
+/*-------- Estilos Novedades y TyC--------*/
+.novedades {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 400px; }
+  .novedades p {
+    background-color: #08f1f1; }
+
+.TyC {
+  background-color: black;
+  color: rgba(245, 245, 245, 0.897); }
+
+.h1Index {
+  background-color: black;
+  color: white; }
+
+/*-------- Estilos Footer--------*/
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+
+.pagos {
+  display: flex;
+  flex-flow: column nowrap; }
+
+.divcentro {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around; }
+
+.spotify {
+  display: flex;
+  justify-content: center; }
+
+.navfooter
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: black; }
+  .navfooter
+ul a:hover {
+    text-decoration: underline;
+    color: white; }
+
+.redes {
+  display: flex;
+  flex-flow: column nowrap; }
+
+/*---Breadcrumb---*/
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee; }
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px; }
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0"; }
+
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none; }
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline; }
+
+/*-------- Grid --------*/
+.contactenos {
+  grid-area: contactenos;
+  height: 100%;
+  border: 4px #962828 solid; }
+
+.contacto {
+  grid-area: contacto;
+  border: 4px #646464 solid;
+  height: 100%; }
+
+.grillaContacto {
+  background-color: burlywood;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "contactenos contacto"; }
+
+/*-------- Media Queries --------*/
+@media only screen and (max-width: 700px) {
+  .redes {
+    grid-area: redes; }
+  .logospagos {
+    grid-area: logos; }
+  .divcentro {
+    grid-area: spotify; }
+  .navfooter {
+    grid-area: navfooter; }
+  footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "logos spotify redes" "navfooter navfooter navfooter"; } }
