@@ -45,6 +45,15 @@ footer a {
 .tabla-tr {
   color: #051927; }
 
+/*----- Error 404 -----*/
+.error404fondo {
+  background-color: black;
+  background-image: url(../Imagenes/enconstruccion.png);
+  background-position: top; }
+
+.error404 {
+  color: wheat; }
+
 /*--------Header--------*/
 #headerErroneo {
   margin-bottom: 6rem; }
@@ -62,10 +71,8 @@ footer a {
   -o-transition: all 500ms ease;
   transition: all 500ms ease; }
 
-header h1 {
-  background-color: black;
-  transform: translate(0px, 28px);
-  margin: 28px; }
+.fixed-top {
+  background-color: #dedede42; }
 
 header img:hover {
   transform: scale(1.1); }
@@ -74,7 +81,7 @@ header nav {
   display: flex;
   flex-flow: row nowrap; }
   header nav a:hover {
-    background: rgba(94, 94, 94, 0.616);
+    background: rgba(151, 151, 151, 0.616);
     border-radius: 50px; }
 
 .logo {
@@ -133,6 +140,45 @@ header nav {
   margin: 0px; }
   .modelSInteriorText h2 {
     color: white; }
+
+.modelCaracts {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: black;
+  padding: 100px; }
+  .modelCaracts p {
+    color: white;
+    padding: 50px; }
+
+.modelCaracts1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: black;
+  padding: 100px; }
+  .modelCaracts1 p {
+    color: #b3b3b3;
+    padding: 50px; }
+
+.modelCaracts2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: black;
+  padding: 100px; }
+  .modelCaracts2 p {
+    color: #ccb2b2;
+    padding: 50px; }
 
 .specsArt1 {
   background-color: grey;
@@ -209,7 +255,7 @@ header nav {
   align-items: center;
   height: 550px; }
   .articulo3 h1 {
-    transform: translate(0px, 60px);
+    transform: translate(0px, 73px);
     color: lightcyan; }
 
 .modelXInterior {
@@ -277,9 +323,46 @@ p {
   .novedades p {
     background-color: #08f1f1; }
 
-.TyC {
-  background-color: black;
-  color: rgba(245, 245, 245, 0.897); }
+.novedades0 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.novedades1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center; }
+  .novedades1 p {
+    background-color: black;
+    color: white; }
+
+.novedades2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center; }
+  .novedades2 p {
+    background-color: #f12626; }
+
+.novedades3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center; }
+  .novedades3 p {
+    background-color: #8456e8; }
+
+.TyCtexto {
+  background-color: aliceblue; }
+  .TyCtexto p {
+    background-color: black;
+    color: rgba(245, 245, 245, 0.897); }
 
 .h1Index {
   background-color: black;
@@ -289,7 +372,7 @@ p {
 footer {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between; }
+  justify-content: space-around; }
 
 .pagos {
   display: flex;
@@ -308,7 +391,9 @@ footer {
 ul {
   display: flex;
   flex-flow: row wrap;
-  background-color: black; }
+  background-color: black;
+  justify-content: center;
+  flex-wrap: wrap; }
   .navfooter
 ul a:hover {
     text-decoration: underline;
