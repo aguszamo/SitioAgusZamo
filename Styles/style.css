@@ -141,45 +141,6 @@ header nav {
   .modelSInteriorText h2 {
     color: white; }
 
-.modelCaracts {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  background-color: black;
-  padding: 100px; }
-  .modelCaracts p {
-    color: white;
-    padding: 50px; }
-
-.modelCaracts1 {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  background-color: black;
-  padding: 100px; }
-  .modelCaracts1 p {
-    color: #b3b3b3;
-    padding: 50px; }
-
-.modelCaracts2 {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  align-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  background-color: black;
-  padding: 100px; }
-  .modelCaracts2 p {
-    color: #ccb2b2;
-    padding: 50px; }
-
 .specsArt1 {
   background-color: grey;
   display: flex;
@@ -210,7 +171,7 @@ header nav {
     color: dimgrey; }
 
 .model3Interior {
-  background-image: url(../Imagenes/Model-3-Interior.jpg);
+  background-image: url(../Imagenes/Model-3-interior.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -259,7 +220,7 @@ header nav {
     color: lightcyan; }
 
 .modelXInterior {
-  background-image: url(../Imagenes/Model-X-Interior.jpg);
+  background-image: url(../Imagenes/Model-x-interior.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -309,6 +270,51 @@ header nav {
   .tienda p {
     background-color: black;
     color: whitesmoke; }
+
+.modelCaracts {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: black;
+  padding: 100px; }
+  .modelCaracts p {
+    color: white;
+    padding: 50px; }
+  .modelCaracts h4 {
+    color: #b3b3b3;
+    padding: 50px; }
+
+.modelCaracts1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: black;
+  padding: 100px; }
+  .modelCaracts1 p {
+    color: #b3b3b3;
+    padding: 50px; }
+  .modelCaracts1 h4 {
+    color: #b3b3b3;
+    padding: 50px; }
+
+.modelCaracts2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: black;
+  padding: 100px; }
+  .modelCaracts2 p {
+    color: #ccb2b2;
+    padding: 50px; }
 
 p {
   font-family: 'Montserrat', sans-serif;
@@ -426,6 +432,31 @@ ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline; }
 
+.what {
+  padding: 5px 0px; }
+  .what img:hover {
+    transform: scale(1.1); }
+
+.face {
+  padding: 5px 0px; }
+  .face img:hover {
+    transform: scale(1.1); }
+
+.twi {
+  padding: 5px 0px; }
+  .twi img:hover {
+    transform: scale(1.1); }
+
+.insta {
+  padding: 5px 0px; }
+  .insta img:hover {
+    transform: scale(1.1); }
+
+.you {
+  padding: 5px 0px; }
+  .you img:hover {
+    transform: scale(1.1); }
+
 /*-------- Grid --------*/
 .contactenos {
   grid-area: contactenos;
@@ -454,6 +485,37 @@ ul.breadcrumb li a:hover {
     grid-area: spotify; }
   .navfooter {
     grid-area: navfooter; }
+  .pCaracts {
+    grid-area: pCaract; }
+  .imgCaracts {
+    grid-area: imgCaract; }
+  .h4Caracts {
+    grid-area: h4Caract; }
+  .modelCaracts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: black;
+    padding: 100px; }
+  .modelCaracts1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "imgCaract imgCaract imgCaract" "h4Caract h4Caract h4Caract" "pCaract pCaract pCaract";
+    background-color: black;
+    padding: 100px; }
+  .modelCaracts2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: black;
+    padding: 100px; }
   footer {
     display: grid;
     grid-template-columns: auto auto;
