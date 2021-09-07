@@ -279,12 +279,9 @@ header nav {
   align-items: center;
   flex-wrap: nowrap;
   background-color: black;
-  padding: 100px; }
+  padding: 30px; }
   .modelCaracts p {
     color: white;
-    padding: 50px; }
-  .modelCaracts h4 {
-    color: #b3b3b3;
     padding: 50px; }
 
 .modelCaracts1 {
@@ -295,11 +292,8 @@ header nav {
   align-items: center;
   flex-wrap: nowrap;
   background-color: black;
-  padding: 100px; }
+  padding: 30px; }
   .modelCaracts1 p {
-    color: #b3b3b3;
-    padding: 50px; }
-  .modelCaracts1 h4 {
     color: #b3b3b3;
     padding: 50px; }
 
@@ -311,7 +305,7 @@ header nav {
   align-items: center;
   flex-wrap: nowrap;
   background-color: black;
-  padding: 100px; }
+  padding: 30px; }
   .modelCaracts2 p {
     color: #ccb2b2;
     padding: 50px; }
